@@ -1,0 +1,4 @@
+interface:
+  display_name: "DesignWrap Shopify Product Image Studio"
+  short_description: "Create consistent white-background Shopify product images."
+  default_prompt: "@DesignWrap Shopify Product Image Studio 请将我上传的所有图片处理为 Shopify 产品图：白底、轻微自然投影、1:1 高清 PNG。"
