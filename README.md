@@ -18,7 +18,7 @@ An AI skill by [DesignWrap](https://designwrap.co) that turns uploaded product p
 
 - 将适合处理的产品图片转换为纯白（`#FFFFFF`）无缝背景
 - 在产品正下方保留轻微、自然的浅灰色接触阴影
-- 默认输出 `2048 × 2048 px` 的 1:1 高清 PNG 产品图
+- 默认输出 `2048 × 2048 px` 的 1:1 高清 WebP 产品图
 - 让整批产品保持居中、直立、完整不裁切，并拥有一致的视觉比例
 - 为不同颜色、款式或拍摄角度分别生成图片，不会混合成同一张图
 - 保留产品原有的轮廓、颜色、材质、纹理、车线、Logo、标签、五金与印刷文字
@@ -55,7 +55,7 @@ An AI skill by [DesignWrap](https://designwrap.co) that turns uploaded product p
 
 ```text
 @DesignWrap Shopify Product Image Studio 请将我上传的所有产品图片处理为 Shopify 产品图：
-纯白背景、产品下方轻微自然投影、1:1、2048 × 2048 px 高清 PNG。
+纯白背景、产品下方轻微自然投影、1:1、2048 × 2048 px 高清 WebP。
 请保留产品的原始颜色、Logo、材质、细节和比例；不要裁切或改变产品本身。
 ```
 
@@ -90,7 +90,7 @@ The goal is not to redesign the product. It is to reduce repetitive background c
 
 - Convert suitable product photos to a seamless pure-white (`#FFFFFF`) background
 - Add one subtle, natural light-grey contact shadow directly beneath the product
-- Produce 1:1, 2048 × 2048 px high-resolution PNGs by default
+- Produce 1:1, 2048 × 2048 px high-resolution WebP images by default
 - Keep a batch centred, upright, uncropped, and visually consistent in scale
 - Create separate images for distinct colours, styles, and product angles
 - Preserve the original silhouette, colour, material, texture, seams, logos, labels, hardware, and printed copy
@@ -127,7 +127,7 @@ The exact installation entry point may differ between ChatGPT / Codex versions. 
 
 ```text
 @DesignWrap Shopify Product Image Studio, convert all product photos I uploaded into Shopify product images:
-pure white background, a subtle natural contact shadow, 1:1, 2048 × 2048 px high-resolution PNG.
+pure white background, a subtle natural contact shadow, 1:1, 2048 × 2048 px high-resolution WebP.
 Preserve the product's original colour, logos, materials, details, and proportions. Do not crop or alter the product itself.
 ```
 

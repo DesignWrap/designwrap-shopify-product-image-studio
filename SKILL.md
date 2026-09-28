@@ -10,7 +10,7 @@ Turn every uploaded image in scope into a consistent Shopify product image. Defa
 - pure white (#FFFFFF) background;
 - natural, very soft contact shadow below the product only;
 - square 1:1 canvas, 2048 × 2048 px, suitable for a consistent Shopify product grid;
-- sharp, high-resolution PNG output, without a watermark, border, text, frame, or colour cast.
+- sharp, high-resolution WebP output, without a watermark, border, text, frame, or colour cast.
 
 ## Workflow
 
@@ -46,7 +46,7 @@ Avoid: off-white or coloured background, hard or floating shadow, reflection, ou
 
 ## Output choices
 
-- Use the 1:1 2048 × 2048 px PNG default unless the user supplies an established Shopify image ratio, theme requirement, or a different desired size. Preserve that explicit requirement across the whole set.
+- Use the 1:1 2048 × 2048 px WebP default unless the user supplies an established Shopify image ratio, theme requirement, or a different desired size. Preserve that explicit requirement across the whole set.
 - If the current Shopify store uses another consistent ratio (for example 4:5), match it rather than mixing ratios.
 - Name files clearly in source order, using a stable product/colour/angle suffix when that information is available. Never overwrite the originals.
 - State which image(s) were excluded or need user direction, and why.
